@@ -1,0 +1,188 @@
+html {
+	font-size: 50px;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+				/* border: 1px solid red; */
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction:column;
+				align-items:center;
+				
+			}
+.title {
+	font-size: 0.36rem;
+	/* font-weight: 400; */
+	text-align: center;
+	/* background: #00BFFF; */
+}
+.header img,.content img{
+	width: 100%;
+}
+.header{
+	margin: 0.15rem 0;
+	width: 100%;
+}
+.content{
+	margin:0 0.45rem;
+}
+
+.navbar{
+	position: relative;	
+	margin: 0.15rem 0;
+}
+.navbar .huangguan{
+	position: absolute;
+	top: -0.5rem;
+	right:-0.5rem;
+}
+.swiper{
+	padding: 0.41rem 0 0;
+
+}
+.gift{
+	margin: 0.3rem 0;
+}
+.wrapper .footer{
+				width: 100%;
+				height: 1.5rem;
+				display: flex;
+				flex-direction:row;
+				align-items: center;
+				justify-content: space-around;
+				font-size: .28rem;
+				/* padding: 0 0 0.5rem; */
+			}
+.footer a,.footer span{
+	text-decoration: none;
+	color:black;
+}
+@media screen and (max-width: 374px) {
+				html{
+					font-size: 40px;
+				}
+				
+			}
+@media screen and (min-width: 376px) and (max-width: 414px) {
+				html{
+					font-size: 60px;
+				}
+				
+			}
+@media screen and (min-width: 768px) {
+				html{
+					font-size: 100px;
+				}
+				
+			}
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+				html{
+					font-size: 130px;
+				}
+				
+			}
+/* 订单购买页 */
+.wrapper2{
+				/* border: 1px solid red; */
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction:column;
+				align-items:center;
+				margin: .3rem;
+			}
+.first{
+	width: 100%;
+	/* margin: .5rem; */
+}
+.neirong .top{
+	width: 100%;
+	height: 0.52rem;
+	padding: 0.4rem 0;
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content: space-between;
+	/* padding: 0.14rem 0rem; */
+	/* margin: 0 .25rem; */
+}
+.top img{
+	width: .34rem;
+	height: .34rem;
+}
+.neirong a,.neirong span{
+	font-size: .28rem;
+	text-decoration: none;
+	color: #000000;
+}
+.tu{
+	text-align: center;
+	}
+.tu .tu1 img{
+	width: 100%;	
+}
+.tu .tu2{
+	width: 100%;
+}
+.neirong .bottom{
+	width: 100%;
+	height: 0.52rem;
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content: space-between;
+}
+.bottom img{
+	width: .34rem;
+	height: .34rem;
+}
+.second{
+	width: 100%;
+	margin: .5rem 0 0;
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content: space-between;
+}
+.second ul {
+	list-style: none;
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.section ul li{
+	width: 100%;
+}
+.second ul img{
+	width: 3.00rem;
+	/* width: 50%; */
+}
+.third{
+	width: 100%;
+	font-size: .22px;
+	text-align: center;
+	/* display: flex; */
+}
+.tip{
+	margin: .2rem 0;
+	font-size: 0.25rem;
+}
+.third{
+	position: relative;
+	width: 100%;
+}
+.background img{
+	width: 100%;
+}
+.buy img{
+	width: 2rem;
+}
+.buy{
+	position: absolute;
+	top: 0.2rem;
+	right: .5rem;
+}

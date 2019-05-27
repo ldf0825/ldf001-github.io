@@ -1,0 +1,216 @@
+html {
+	font-size: 50px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	/* align-items:center; */
+	margin: 0.3rem;
+}
+
+.header,
+.img {
+	width: 100%;
+}
+
+.header {
+	font-size: 0.26rem;
+	text-align: center;
+}
+
+.img img{
+	width: 6.9rem;
+}
+.main{
+	border:1px solid rgb(224,224,224);
+	border-radius: 0.3rem;
+}
+.price{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	align-items:center;
+	justify-content: space-between;
+	font-size: .28rem;
+	padding: .22rem;
+	color: grey;
+}
+.zengyan{
+	padding: .22rem 0;
+	font-size: .28rem;
+}
+.zengyan .box{
+	padding: .22rem 0; 
+	background: rgb(248,248,248);
+	border-radius: 0.3rem;
+	width: 100%;
+	height: 2rem;
+	position: relitive;
+}
+.zishu{
+	position: absolute;
+	top: 10.5rem;
+	right: 1rem;
+}
+.button{
+	margin: 0.1rem 0;
+}
+.button img{
+	width: 100%;
+}
+@media screen and (max-width: 374px) {
+				html{
+					font-size: 40px;
+				}
+				
+			}
+@media screen and (min-width: 376px) and (max-width: 414px) {
+				html{
+					font-size: 60px;
+				}
+				
+			}
+@media screen and (min-width: 768px) {
+				html{
+					font-size: 100px;
+				}
+				
+			}
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+				html{
+					font-size: 130px;
+				}
+				
+			}
+.chenggong{
+	width: 100%;
+	/* text-align: center; */
+}
+.chenggong img{
+	/* width: 6.3rem; */
+	width: 100%;
+}
+.tishi{
+	padding: 2rem 0 0;
+	text-align: center;
+}
+.tishi p{
+	font-size: .26rem;
+}
+.wancheng{
+	width: 100%;
+}
+.wancheng img{
+	width: 100%;
+}
+/* 我赠送的 */
+.jiazhi{
+	width: 100%;
+	margin: .5rem 0 0;
+}
+.jiazhi img{
+	width: 100%;
+}
+.lihe{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.lihebox{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	align-items:center;
+	justify-content: space-between;
+	font-size: .28rem;
+	padding: .22rem;
+	margin: .15rem 0;
+	border: 1px solid rgb(224,224,224);
+	border-radius: .2rem;
+}
+.lihebox p{
+	width: 40%;
+	padding: .2rem 0;
+}
+.lihebox .lihebox1{
+	font-size: .3rem;
+}
+.lihebox .orange a{
+	float: right;
+	color: orange;
+	text-decoration: none;
+}
+.lihebox .lihebox2 a span{
+	color: #000000;
+}
+.lihebox .lihebox3{
+	font-size: .3rem;
+}
+.lihebox .lihebox4 a{
+	float: right;
+	color: #000000;
+	text-decoration: none;
+}
+.lihebox .green a{
+	float: right;
+	color: greenyellow;
+	text-decoration: none;
+}
+.kefu{
+	text-align: center;
+}
+.kefu a{
+	text-decoration: none;
+	font-size: .35rem;
+}
+/* 我送出的可领取 */
+.xingyun{
+	margin: .2rem 0 .5rem;
+}
+.xingyun p{
+	font-size: .22rem;
+	color: grey;
+}
+.xingyun span{
+	color: orange;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.jixu{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	align-items:center;
+	justify-content: space-between;
+	background: rgb(248,248,248);
+}
+.jixu p{
+	font-size: .22rem;
+}
+.jixu a{
+	color:greenyellow;
+}
+.paiming{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	align-items:center;
+	justify-content: space-between;
+	font-size: .28rem;
+	padding: .22rem;
+	margin: .2rem 0 0;
+	color: grey;
+}
